@@ -17,6 +17,7 @@
 	- login to the shell using username and password
 	
 	- CREATE DATABASE oye_assignment
+	- \c oye_assignment
 	- CREATE TABLE todos (
 			id serial primary key,
 			priority VARCHAR(50) DEFAULT 'LOW' NOT NULL,
@@ -109,6 +110,10 @@ Empty body set completed to true
 
 	3. BY STATUS
 		`fetch('http://localhost:3030/todos/all?completed=true')`
+
+	4. ALL
+		`fetch('http://localhost:3030/todos/all')`
+
 
 
 
