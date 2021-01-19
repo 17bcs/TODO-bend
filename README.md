@@ -30,6 +30,7 @@
 ### NODEJS
 	- Install Nodejs
 	- update .env credentials.
+	- `npm i `
 	- `npm start`
 
 
